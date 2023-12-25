@@ -35,7 +35,8 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
-                <execution>
+                <executions>
+                  <execution>
                     <id>check</id>
                     <goals>
                         <goal>check</goal>
@@ -53,7 +54,8 @@
                             </rule>
                         </rules>
                     </configuration>
-                </execution>
+                  </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
